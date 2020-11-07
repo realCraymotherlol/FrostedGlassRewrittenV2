@@ -1,0 +1,64 @@
+/* //META{ "name": "Frosted Glass Rewritten V2", "description": "Complete rewrite of the frosted glass theme with some additional twists.      (Original Author is Alten.)", "author": "Craymotherlol", "version": "2.0", "source":"https://raw.githubusercontent.com/AltenGD/Altens-betterdiscord-Themes-Plugins/master/Themes/FrostedGlassRewrite.theme.css"} *//**/
+
+@import url(https://rawgit.com/AltenGD/Altens-betterdiscord-Themes-Plugins/master/Themes/FGR.css);
+
+:root {
+  --imgNonBlurred: url(https://i.imgur.com/04GKOra.jpg);
+  --imgBlurred: url(https://i.imgur.com/dgBOlGy.jpg);
+  --Brightness: rgba(0,0,0,0.2);
+  --SecondaryBrightness: rgba(0,0,0,0.4);
+  --ThirdBrightness: rgba(0,0,0,0.6);
+}
+
+.theme-dark {
+ --background-secondary: transparent;
+ --background-secondary-alt: transparent;
+ --background-tertiary: transparent; 
+}
+
+.scrollableContainer-2NUZem {
+  background-color: #23232d;
+}
+
+.contentRegionScroller-26nc1e {
+  background-color: transparent;
+}
+
+.theme-dark .container-1D34oG {
+  background-color: transparent;
+}
+
+.outer-1AjyKL {
+  background-color: #20222578;
+}
+
+.wrapper-3D2qGf {
+  background-color: transparent;
+}
+
+.inset-3sAvek {
+  background-color: #3e404670;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+  background: #ffffff05;
+}
+
+::-webkit-scrollbar-button {
+ background: rgba(255,255,255,0)!important
+}
+
+::-webkit-scrollbar-track {
+ background: rgba(255,255,255,0)!important;
+}
+
+.theme-dark .form-2fGMdU:before {
+ background: transparent;
+
+.theme-dark .children-19S4PO:after {
+ background: rgba(255,255,255,0)!important;
+}
+
+.sidebar-2K8pFh {
+ background-image: var(--imgBlurred)!important;
+}
